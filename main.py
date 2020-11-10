@@ -55,7 +55,7 @@ def write_in_file(price):
 
 if __name__ == '__main__':
     print(time.strftime("%H:%M:%S", time.localtime()))
-    schedule.every(0.001).minutes.do(request)
+    schedule.every(1).minutes.do(request)
 
     while True:
 
